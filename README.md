@@ -23,59 +23,32 @@ https://dev.swetracker.org/
  
 `#!/bin/bash
 while [ true ]; do
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor.php?q=tracker1
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor.php?q=tracker2
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor.php?q=tracker3
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor.php?q=tracker4
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_nb.php?q=tracker1
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_nb.php?q=tracker2
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_nb.php?q=tracker3
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_nb.php?q=tracker4
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_gnu.php?q=tracker1
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_gnu.php?q=tracker2
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_gnu.php?q=tracker3
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_gnu.php?q=tracker4
-
 sleep 10
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor.php?q=tracker1
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor.php?q=tracker2
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor.php?q=tracker3
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor.php?q=tracker4
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_nb.php?q=tracker1
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_nb.php?q=tracker2
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_nb.php?q=tracker3
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_nb.php?q=tracker4
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_gnu.php?q=tracker1
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_gnu.php?q=tracker2
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_gnu.php?q=tracker3
-
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor_gnu.php?q=tracker4
-
 sleep 10
-
 done`
 ### Alter this to what trackers you use and sources the trackers are using!
 9. make the startup.sh executable
