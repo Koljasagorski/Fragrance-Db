@@ -13,7 +13,8 @@ This is tested and works on Ubuntu 14.04 and 16.04.
  5. Add the database.sql to MySQL.
  6. Run a2enmod rewrite
  7. Go back to folder /var/www and create a file called startup.sh
- 8. Edit startup.php with																																	 `#!/bin/bash
+ 8. Edit startup.php with																																	
+ `#!/bin/bash
 while [ true ]; do
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor.php?q=tracker1
 wget -O /dev/null http://127.0.0.1:8880/xtra/processor.php?q=tracker2
