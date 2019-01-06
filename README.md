@@ -1,6 +1,6 @@
 # FragranceDb
 
-This is a simple but usefull tracer to keep an eye out for all releasers being uploaded on your favorite private trackers. easy to use and easy to maintain.
+This is a simple but usefull tracer to keep an eye out for all releases being uploaded on your favorite private trackers. easy to use and easy to maintain.
 This is tested and works on Ubuntu 14.04 and 16.04.
 
 ## Demo
