@@ -89,3 +89,8 @@
 .badge-error:hover {
   background-color: #953b39;
 }
+tr, td, th {
+	height:15px;
+	border-collapse:collapse;
+	line-height:14px;
+}
