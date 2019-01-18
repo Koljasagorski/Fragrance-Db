@@ -5,7 +5,9 @@ $time = microtime();
 $time = explode(' ', $time);
 $time = $time[1] + $time[0];
 $start = $time;
+if (stripos($_SERVER['REQUEST_URI'], 'releases') || stripos($_SERVER['REQUEST_URI'], 'one') || stripos($_SERVER['REQUEST_URI'], 'international')){
 setcookie("lastViewed", date("Y-m-d H:i:s"), time() + (86400 * 30), "/", "", true, true);
+}
 header("X-XSS-Protection: 1; mode=block");
 header("Content-Security-Policy: default-src https:");
 header("Content-Security-Policy: style-src https:");

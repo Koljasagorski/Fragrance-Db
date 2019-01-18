@@ -83,3 +83,9 @@
 	50% { opacity: .5; } 
 	100% { opacity: 1; }
 }
+.badge-error {
+  background-color: #b94a48;
+}
+.badge-error:hover {
+  background-color: #953b39;
+}
