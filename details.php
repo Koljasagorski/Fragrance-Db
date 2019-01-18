@@ -142,7 +142,8 @@ if($row['visningar'] >= '10'){
 }
 echo "<h1>".$tracker."</h1>";
 echo "<h3>".utf8_decode($relle)."".$het."</h3><h6><i class='fa fa-clock-o' aria-hidden='true'></i>".$row['time']."&nbsp;".$lang['det_size'].":&nbsp;".$size."</h6>";
-
+if (isset($_COOKIE['password']) && isset($_COOKIE['aduser']) && $_COOKIE['password'] === $encryptPass && $_COOKIE['aduser'] === $adminUser) {
+	echo '<span class="badge badge-error">'.$row['visningar'].'&nbsp;'.$lang['coll_table_ad_views'].'</span>';}
 //Echoes Similar .Torrents//
 echo '<center><div style="background-color:#FFF;width:60%;height:100px;overflow: auto"><table>';
 $rs=$row['releaseStart'];
