@@ -19,7 +19,7 @@ https://dev.swetracker.org/
  5. Add the database.sql to MySQL.
  6. Run a2enmod rewrite
  7. Go back to folder /var/www and create a file called startup.sh
- 8. Edit startup.php with		
+ 8. Edit startup.sh with		
  
 `#!/bin/bash
 while [ true ]; do
