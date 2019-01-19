@@ -57,6 +57,7 @@ $lang['coll_table_ad_del']		=		'QUICKDELETE!';
 $lang['coll_table_ad_warn']		=		'THIS PERMANENTLY DELETES THIS RELEASE!';
 $lang['coll_table_supreme']		=		'Supreme';
 $lang['coll_table_supreme_hov']	=		'Priority group';
+$lang['coll_click_race']		= 		'Click to show the &quot;Race&quot;-page';
 ////////////////////////////////////////////////////////////////////////
 
 //footer//
@@ -136,9 +137,8 @@ $lang['adm_news_nick']			=		'Enter nick or leave empty for default value - Staff
 $lang['adm_news_submit_btn']	=		'Submit';
 $lang['adm_news_added']			=		'Added';
 $lang['adm_news_added_by']		=		'Added by';
-$lang['adm_news_added_delay']	=		'Your News has been added, BUT there are some delay due to caching. <br /> Your post will show in about 30 minutes. ';
+$lang['adm_news_added_delay']	=		'Your News has been added';
 $lang['adm_news_no_bbcode']		=		'No BB-Code allowed. it will not render. if anything use';
-$lang['adm_news_no_bb_rem']		=		'Remember, there\'s a 30 minute cache for the news when posting new.';
 ////////////////////////////////////////////////////////////////////////
 //admin active//
 $lang['adm_active']				=		'Admin are ACTIVE! Be aware!!';

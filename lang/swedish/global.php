@@ -57,6 +57,7 @@ $lang['coll_table_ad_del']		=		'SNABBRADERA!';
 $lang['coll_table_ad_warn']		=		'Detta RADERAR releasen PERMANENT!';
 $lang['coll_table_supreme']		=		'Chef';
 $lang['coll_table_supreme_hov']	=		'Prioriterad grupp';
+$lang['coll_click_race']		= 		'Klicka för att visa &quot;Race&quot;-sidan';
 ////////////////////////////////////////////////////////////////////////
 
 //footer//
@@ -137,9 +138,9 @@ $lang['adm_news_nick']			=		'Fyll i Ditt nick eller lämna tomt för att Standard 
 $lang['adm_news_submit_btn']	=		'Slutför';
 $lang['adm_news_added']			=		'Tillagd';
 $lang['adm_news_added_by']		=		'Skapad av';
-$lang['adm_news_added_delay']	=		'Nyhet tillagd. Det är dock 30 minuter cache innan nyheten visas. ';
-$lang['adm_news_no_bbcode']		=		'Ingen BB-Kod. Det renderas INTE. Använd ';
-$lang['adm_news_no_bb_rem']		=		'Istället. Kom ihåg att det tar ca 30 minuter innan nyheten syns.';
+$lang['adm_news_added_delay']	=		'Nyhet tillagd.';
+$lang['adm_news_no_bbcode']		=		'Ingen BB-Kod. Det renderas INTE. Använd istället ';
+
 ////////////////////////////////////////////////////////////////////////
 //admin active//
 $lang['adm_active']				=		'Admin är aktiv! Var försiktig!';

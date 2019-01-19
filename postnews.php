@@ -6,6 +6,13 @@ require_once('./xtra/broken_dreams.php');
         header('Location: /');
         die();
     }
+$m = new Memcached();
+$m->addServer('localhost', 11211);
+$m->delete('newstitle');
+$m->delete('newsadded');
+$m->delete('newsaddedby');
+$m->delete('newsmessage');
+$m->delete('newsid');
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection//
 if ($conn->connect_error) {

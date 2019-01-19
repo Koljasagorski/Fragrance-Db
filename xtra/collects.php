@@ -159,7 +159,7 @@ if (isset($_COOKIE['password']) && isset($_COOKIE['aduser']) && $_COOKIE['passwo
 		  	$deleteRelease = ""; }
 		  	$trackerurl = $row['trackerurl'];
 
-	  	$tracker = "".$favico."".$trackernamn."</th><th><a class='one' href='race?rel=".$relmod."'>".chunk_split(utf8_decode($row['releases']) ,60)."</a>";
+	  	$tracker = "".$favico."".$trackernamn."</th><th><a class='one' href='race?rel=".$relmod."' title='".$lang['coll_click_race']."'>".chunk_split(utf8_decode($row['releases']) ,60)."</a>";
 
         echo "<tr><th style='width:120px;'>".$row['time']."</th><th style='width:125px;'>".$tracker."".$newtag."".$het."<div class=''style='float:right;'>".$comment."</div><br /><div class='sub'>".$p2p."".$textad."".$adminhet."".$deleteRelease."</div></th><th style='width:100px;'><div data-balloon-length='xlarge' data-balloon='". chunk_split($info,34)."' data-balloon-pos='left'><a href='/X-".$row['id']."'><i class='glyphicon glyphicon-info-sign' aria-hidden='true'></i>".$lang['coll_th_det']."</a></div><br /><br /></th></tr>";
     		

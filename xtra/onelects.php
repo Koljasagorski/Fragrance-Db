@@ -59,7 +59,7 @@ include('./xtra/trackers.php');
     	$maze = "";
     	$imdb = "";
     	
-  $tracker = $favico."".$trackernamn."</th><th><a class='one' href='race?rel=".$relmod."'>".chunk_split(utf8_decode($row['releases']) ,40)."</a>";
+  $tracker = $favico."".$trackernamn."</th><th><a class='one' href='race?rel=".$relmod."' title='".$lang['coll_click_race']."'>".chunk_split(utf8_decode($row['releases']) ,40)."</a>";
     	
         echo "<tr><th style='width:120px;'>".$row['time']."</th><th style='width:125px;'>".$tracker."".$newtag."".$het."</th><th style='width:100px;'><div data-balloon-length='xlarge' data-balloon='". chunk_split($info,34)."' data-balloon-pos='left'>".$imdb."<a href='/X-".$row['id']."'><i class='glyphicon glyphicon-info-sign' aria-hidden='true'></i>".$lang['coll_th_det']."</a></div></th></tr>";
     		

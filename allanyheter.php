@@ -15,7 +15,7 @@ require_once('./xtra/broken_dreams.php');
 }
 if($_GET['added'] === '1'){
 	echo '<h2>'.$lang['adm_news_added_delay'].' </h2><br />'; }
-	echo '<h3>'.$lang['adm_news_no_bbcode'].' <a href="https://www.w3schools.com/tags/default.asp" title="Full try-me for HTML">HTML</a> '.$lang['adm_news_no_bb_rem'].'</h3>';
+	echo '<h3>'.$lang['adm_news_no_bbcode'].' <a href="https://www.w3schools.com/tags/default.asp" title="Full try-me for HTML">HTML</a></h3>';
 $nick='<input type="text" name="addedby" class="form-control" id="addedby" placeholder="'.$lang['adm_news_nick'].'">';
 if(isset($_COOKIE['name'])){
 	$nick = '<input type="text" name="addedby" class="form-control" id="addedby" value="'.$_COOKIE['name'].'">';}
