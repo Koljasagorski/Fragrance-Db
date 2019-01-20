@@ -15,7 +15,7 @@ header("Content-Security-Policy: img-src https: data:");
 header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: no-referrer-when-downgrade');
 header('Cache-Control: max-age=259200');
-header('Cache-Control: proxy-revalidate');
+header('Cache-Control: proxy-revalidate'); 
 
 if($ddos === true){
 	sleep(2); }
@@ -51,7 +51,9 @@ if($cookieLangTrue === 'eng'){
 if($cookieLangTrue === 'swe'){
 	require_once('./lang/swedish/global.php');}
 	  $langButtonENG = '<a href="lang.php?l=2"><img src="https://images.weserv.nl/?url='.$siteUrl.'img/eng.png&w=25&t=fit"title="English"></a>'; 
-
+if($cookieLangTrue === 'dk'){
+	require_once('./lang/danish/global.php');}
+	  $langButtonDK = '<a href="lang.php?l=3"><img src="https://images.weserv.nl/?url=https://extsource.swetracker.org/img/dk.png&w=25&t=fit"title="Danish"></a>';
 ///End Multilang///
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
@@ -109,7 +111,7 @@ $conn->close();
 <?php } ?>
 </head>
 <body>
-<div id="floating-lang"><?php echo $langButtonSWE; echo $langButtonENG; /*echo $langButtonDK;*/ ?></div>
+<div id="floating-lang"><?php echo $langButtonSWE; echo $langButtonENG; echo $langButtonDK; ?></div>
 <div class="panel panel-default"style="position:relative;float:right;width:150px;">
 	<div class="panel-heading">
     	<h3 class="panel-title"><?php echo $lang['head_last_title'] ?></h3>

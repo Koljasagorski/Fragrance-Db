@@ -1,4 +1,5 @@
 <?php
+
    require_once('/var/www/html/xtra/broken_dreams.php');
 			if(isset($_COOKIE['lang'])){
     $cookieLang = $_COOKIE['lang'];
@@ -10,6 +11,11 @@
     if($cookieLang === 'eng'){
 	    $cookieLangTrue = 'eng';
 }}
+			if(isset($_COOKIE['lang'])){
+    $cookieLang = $_COOKIE['lang'];
+    if($cookieLang === 'dk'){
+	    $cookieLangTrue = 'dk';
+}}
 			if(!isset($_COOKIE['lang'])){
 				require_once('../lang/english/global.php');
    }
@@ -18,6 +24,9 @@ if($cookieLangTrue === 'eng'){
 	  }
 if($cookieLangTrue === 'swe'){
 	require_once('../lang/swedish/global.php');
+	  }
+if($cookieLangTrue === 'dk'){
+	require_once('../lang/danish/global.php');
 	  }
 	$getapi=$_GET['genapi'];
 	if($getapi==='1'){

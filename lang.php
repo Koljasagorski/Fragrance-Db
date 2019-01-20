@@ -8,5 +8,9 @@ if($lang == "2"){
  setcookie("lang", "eng", time() + (86400 * 365), "/", "", true, true);
 header('Location: ' . $_SERVER['HTTP_REFERER']);
 }
+if($lang == "3"){
+ setcookie("lang", "dk", time() + (86400 * 365), "/", "", true, true);
+header('Location: ' . $_SERVER['HTTP_REFERER']);
+}
 
 ?>
