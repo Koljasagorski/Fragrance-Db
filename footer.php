@@ -22,7 +22,7 @@ if($total_time > 0.6){
 	echo 'Status: <font color="red" title="Something hogs the server!"><b>High!</b></font><br />'; }
 }
 ?>
-<?php echo $lang['foot_pwrby'] ?> <a href="https://github.com/SwedishTracker/Fragrance-Db" target="_blank"><img src="/img/poweredby.png" alt=""></a>
+<?php echo $lang['foot_pwrby'] ?> <a href="https://github.com/SwedishTracker/Fragrance-Db" target="_blank"><b><u>Fragrance-Db v<?php echo $version ?></u></b></a>
 
 </center>
 </div>

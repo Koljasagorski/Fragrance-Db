@@ -88,7 +88,7 @@ $conn->close();
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta name="description" content=" Movies, UHD, 1080p, 720p, dvdr, Film, serier, series">
 <link rel="shortcut icon" href="<?php echo $siteUrl ?>/favicon.ico" type="image/x-icon">
-<meta property="og:title" content="<?php echo $siteName ?>">
+<meta property="og:title" content="<?php echo $siteName; echo " v".$version; ?>">
 <meta property="og:type" content="video.movie">
 <meta property="og:url" content="<?php echo $siteUrl ?>">
 <meta property="og:image" content="<?php echo $siteUrl ?>img/logo.png">

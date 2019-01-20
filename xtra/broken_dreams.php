@@ -8,6 +8,7 @@ $root_dir = "/var/www/html/"; //Absolute path for the webserver.
 $siteOn = '1'; //Set to Zero (0) if maintenance-mode should be active.
 $siteName = 'FragranceDb'; //Set the sitewide name
 $siteUrl = 'https://example.com/'; //complete url for your site. including last slash
+$version = '0.1';
 
 //Uncomment if you want multiple logos taking turns//
 //$logo=array("logo.png","logo2.png");
